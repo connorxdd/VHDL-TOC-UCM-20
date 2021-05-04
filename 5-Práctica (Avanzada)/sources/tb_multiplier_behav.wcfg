@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_multiplier_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="definitions" />
+            <top_module name="tb_multiplier" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="370000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/tb_multiplier/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/init" type="logic">
+      <obj_property name="ElementShortName">init</obj_property>
+      <obj_property name="ObjectShortName">init</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/stop" type="logic">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/i_dut/U_CNTRL/STATE" type="other">
+      <obj_property name="ElementShortName">STATE</obj_property>
+      <obj_property name="ObjectShortName">STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/leds_sequence" type="array">
+      <obj_property name="ElementShortName">leds_sequence[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds_sequence[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/displays_enabled" type="array">
+      <obj_property name="ElementShortName">displays_enabled[3:0]</obj_property>
+      <obj_property name="ObjectShortName">displays_enabled[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/roulettes_displays" type="array">
+      <obj_property name="ElementShortName">roulettes_displays[6:0]</obj_property>
+      <obj_property name="ObjectShortName">roulettes_displays[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/i_dut/U_DP/status" type="array">
+      <obj_property name="ElementShortName">status[3:0]</obj_property>
+      <obj_property name="ObjectShortName">status[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/i_dut/U_DP/roul_out_1" type="array">
+      <obj_property name="ElementShortName">roul_out_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">roul_out_1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/i_dut/U_DP/roul_out_2" type="array">
+      <obj_property name="ElementShortName">roul_out_2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">roul_out_2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/i_dut/control" type="array">
+      <obj_property name="ElementShortName">control[9:0]</obj_property>
+      <obj_property name="ObjectShortName">control[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/i_dut/xDebRisingStart" type="logic">
+      <obj_property name="ElementShortName">xDebRisingStart</obj_property>
+      <obj_property name="ObjectShortName">xDebRisingStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/i_dut/outputAux1" type="logic">
+      <obj_property name="ElementShortName">outputAux1</obj_property>
+      <obj_property name="ObjectShortName">outputAux1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/i_dut/outputAux2" type="logic">
+      <obj_property name="ElementShortName">outputAux2</obj_property>
+      <obj_property name="ObjectShortName">outputAux2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/i_dut/outputAux0" type="logic">
+      <obj_property name="ElementShortName">outputAux0</obj_property>
+      <obj_property name="ObjectShortName">outputAux0</obj_property>
+   </wvobject>
+</wave_config>
